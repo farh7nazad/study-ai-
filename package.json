@@ -1,8 +1,9 @@
 "homepage": "https://farh7nazad.github.io/study-ai-",
 "scripts": {
-   "dev": "vite",
+  "dev": "vite",
   "build": "vite build",
-  "preview": "vite preview"
+  "lint": "eslint .",
+  "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
